@@ -1,0 +1,55 @@
+.country-select {
+  position: relative;
+}
+
+.country-select input {
+  width: 100%;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  outline: none;
+}
+
+.country-select > div {
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  max-height: 500px;
+  overflow-y: auto;
+  border-style: inset;
+  border: 1px solid black;
+  border-color: #eee;
+  border-top: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 5px #eee;
+          box-shadow: 0px 0px 5px #eee;
+}
+
+.country-select > div > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.country-select > div > div > img {
+  max-height: 20px;
+  max-width: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.country-select > div > div.active {
+  background-color: #ACCEF7;
+}
+
+body {
+  padding: 300px;
+}
+
+
+/*# sourceMappingURL=app.css.map*/
